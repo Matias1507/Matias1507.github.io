@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>C.V</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ken </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-resposive">
+                <i class="fa-solid fa-bars"></i> 
+            </div>
+        </header>
+    </div>
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="14.png" height="250" alt="Esta es la imagen del propietario del C.V">
+            </div>
+            <h1>Ken Carlson</h1>
+            <h2>Ingeniero De Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a> 
+                <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.skype.com/es/"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://ar.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Vienvenido a mo pagina vew, mi nombre es Ken Carlson.</span>Lorem ipsum dolor sit, 
+            amet consectetur adipisicing elit. Ad natus sunt consequuntur autem animi veritatis eum 
+            quisquam! Consequuntur enim maiores animi laborum suscipit, recusandae consequatur sint 
+            molestiae cumque, iure ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nisi excepturi debitis dicta, dignissimos libero animi maxime dolore rem possimus maiores 
+            corrupti iusto vitae ea id doloremque architecto totam quae repellat. Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit. Possimus quae rerum, quod ipsum repellendus consectetur 
+            sequi ratione sint! Atque nostrum quisquam delectus, modi sit aliquam ullam quibusdam vero enim 
+                molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatibus 
+                ad voluptate officia ab, totam eos quasi exercitationem magnam corporis reiciendis optio 
+                odit quidem cum necessitatibus pariatur officiis ipsa earum. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Quisquam quasi nam illo voluptatibus nisi, culpa fugiat, 
+                itaque, quaerat commodi incidunt veniam dolor dolores consectetur! Harum nemo quas 
+                reprehenderit id quos.</p>
+            <div class="fila">
+                <!--Datos personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                15/07/1999 
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                987654321 
+                            </li>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                15/07/1999 
+                            </li>
+                        </ul>
+                    </div>
+                    <button>
+                        <a download="fake cv" href="C.V.pdf">Descargar C.V</a>
+                        
+                        
+                    </button>
+            </div> 
+    </section>
+
+    <!--CONTACTO-->
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-section">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <form action="">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name">
+
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email">
+                    
+                    <label for="subjet">Asunto</label>
+                    <input type="text" name="subjet">
+
+                    <label for="comments">Comentarios</label>
+                    <textarea name="comments" id="" cols="15" rows="5"></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.skype.com/es/"><i class="fa-brands fa-skype"></i></a>
+            <a href="https://ar.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
